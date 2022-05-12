@@ -1,0 +1,95 @@
+.container {
+  text-align: center;
+  background-color: #1d1e29;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  max-height: 700px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.dev-jon {
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.infoText {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 13px;
+}
+
+.infoText h1,
+h4,
+p {
+  margin-top: -10px;
+}
+
+.job {
+  color: rgb(62, 162, 90);
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttons button {
+  border-radius: 5px 5px 5px 5px;
+  width: 35%;
+  height: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.emailButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailButton:hover {
+  color: white;
+  background-color: black;
+}
+
+.linkedInButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(30, 162, 238);
+}
+
+.linkedInButton:hover {
+  color: rgb(30, 162, 238);
+  background-color: white;
+}
+
+.About,
+.Interests {
+  color: white;
+  text-align: justify;
+  font-size: 13px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131314;
+  border-radius: 0px 0px 10px 10px;
+  height: 50px;
+}
+
+.Icon {
+  color: gray;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
