@@ -1,36 +1,171 @@
-.container {
-  text-align: center;
-  background-color: #1d1e29;
-  align-items: center;
+/* top of page INFO */
+.info--container {
+  background-color: #1a1b21;
+  display: grid;
   justify-content: center;
-  max-width: 300px;
-  max-height: 700px;
-  border-radius: 10px 10px 0px 0px;
+  align-items: center;
 }
 
-.dev-jon {
-  border-radius: 10px 10px 10px 10px;
-  overflow: hidden;
-  max-height: 300px;
-  margin-bottom: 20px;
-}
-
-.infoText {
-  display: flex;
-  flex-direction: column;
+.info--title {
   color: white;
-  font-size: 13px;
+  text-align: center;
+  font-size: 40px;
 }
 
-.infoText h1,
-h4,
-p {
-  margin-top: -10px;
+.info--job {
+  color: #f3bf99;
+  text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
-.job {
-  color: rgb(62, 162, 90);
+.info--site {
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }
+
+.info--email {
+  background-color: white;
+  color: black;
+  width: fit-content;
+}
+
+.info--email button {
+  width: 200px;
+  height: 50px;
+}
+
+.info--linkedin {
+  background-color: blue;
+  color: black;
+  width: fit-content;
+}
+
+.info--linkedin button {
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+}
+
+/* About section */
+
+.about--container {
+  background-color: #1a1b21;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.about--title {
+  color: white;
+}
+
+.about--paragraph {
+  color: white;
+}
+
+/* interests  */
+.interests--container {
+  background-color: #1a1b21;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.interests--header {
+  color: white;
+}
+
+.interests--paragraph {
+  color: white;
+}
+
+.interests--list {
+  color: white;
+}
+
+.interests--list > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+
+/* footer */
+.footer--container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer--github {
+  background-color: #918e9b;
+}
+
+.footer--twitter {
+  background-color: #918e9b;
+}
+/* Fixes? */
+body {
+  background-color: #918e9b;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: #23252c;
+  width: 550px;
+  height: 868px;
+  margin: auto;
+  margin-top: 10px;
+  font-family: Inter;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.footer-div {
+  background-color: #161619;
+  height: 64px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  align-content: center;
+  border: 1px solid red;
+}
+
+.align-icons {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  margin: auto;
+}
+
+.footer-icon {
+  width: 25px;
+  margin: auto;
+  padding-top: 0;
+}
+
+.Icon {
+  color: gray;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
@@ -71,25 +206,31 @@ p {
 
 .About,
 .Interests {
-  color: white;
-  text-align: justify;
-  font-size: 13px;
-  padding-left: 35px;
-  padding-right: 35px;
-}
-
-.Footer {
+  margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: #131314;
-  border-radius: 0px 0px 10px 10px;
-  height: 50px;
-}
+  color: white;
 
+  font-size: 13px;
+}
 .Icon {
   color: gray;
   padding: 10px;
   width: 21px;
   height: 21px;
+}
+
+.footer {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 24px;
+
+  width: 317px;
+  height: 64px;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: transparent;
 }
